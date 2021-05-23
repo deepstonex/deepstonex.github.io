@@ -288,9 +288,9 @@ http://www.templatemo.com/tm-515-eatery
     padding-top: 10px;
   }
 
-  .custom-navbar .navbar-toggle {
+  /* .custom-navbar .navbar-toggle {
     background-color: transparent;
-  }
+  } */
 
   .custom-navbar .navbar-toggle .icon-bar {
     background: #252525;
@@ -930,7 +930,7 @@ http://www.templatemo.com/tm-515-eatery
       line-height: normal;
     }
 
-    .custom-navbar {
+    .` {
       background: #ffffff;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
