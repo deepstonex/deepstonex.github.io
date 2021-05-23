@@ -1,1 +1,2 @@
 # deepstonex
+{{ site.baseurl }}
