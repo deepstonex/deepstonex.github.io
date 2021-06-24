@@ -760,12 +760,13 @@ footer .section-title {
 }
 
 footer h2 {
+  color:white;
   font-size: 20px;
 }
 
 footer a,
 footer p {
-  color: #909090;
+  color: #ffffff;
 }
 
 footer strong {
@@ -809,7 +810,7 @@ footer .social-icon {
 }
 
 .footer-open-hour h2 {
-  color: #1d1d27;
+  color: #ffffff;
 }
 
 .footer-open-hour p {
