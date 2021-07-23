@@ -2,74 +2,19 @@
 title: Contact
 layout: default
 ---
-<!-- HOME -->
-<section id="home" class="slider" data-stellar-background-ratio="0.5">
-    <div class="row">
 
-        <div class="item item-first" style="height: 50vh;">
-        </div>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" data-stellar-background-ratio="0.5">
+<!-- update section start -->
+<div class="update_section">
     <div class="container">
-        <div class="row">
-            <!-- How to change your own map point
-          1. Go to Google Maps
-          2. Click on your location point
-          3. Click "Share" and choose "Embed map" tab
-          4. Copy only URL and paste it within the src="" field below
-  -->
-            <!-- <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
-                <div id="google-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945"
-                        allowfullscreen></iframe>
-                </div>
-            </div> -->
-
-            <div class="col-md-12 col-sm-12">
-
-                <div class="col-md-12 col-sm-12">
-                    <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                        <h2 style="color:white">Contact Us</h2>
-                    </div>
-                </div>
-
-                <!-- CONTACT FORM -->
-                <form action="https://formspree.io/f/xeqvzqap" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
-
-                    <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
-                    <h6 class="text-success">Your message has been sent successfully.</h6>
-
-                    <!-- IF MAIL NOT SENT -->
-                    <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
-
-                    <div class="col-md-6 col-sm-6">
-                        <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <input type="number" class="form-control" id="cf-number" name="number" placeholder="Contact Number">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <input type="text" class="form-control" id="cf-address" name="address" placeholder="Location">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">
-                    </div>
-
-                    <div class="col-md-12 col-sm-12">
-                        <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
-
-                        <textarea class="form-control" rows="6" id="cf-message" name="message"
-                            placeholder="Tell about your project"></textarea>
-
-                        <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
-                    </div>
-                </form>
+        <h1 class="update_taital">Contact Us</h1>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <textarea class="update_mail" placeholder="Name" rows="5" id="comment" name="Name"></textarea>
+                <textarea class="update_mail" placeholder="Number" rows="5" id="comment" name="Number"></textarea>
+                <textarea class="update_mail" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
             </div>
-
-        </div>
+            <div class="subscribe_bt"><a href="#">Subscribe Now</a></div>
+        </form>
     </div>
-</section>
+</div>
+<!-- update section end -->

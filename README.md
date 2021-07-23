@@ -1,2 +1,1 @@
 # deepstonex
-{{ site.baseurl }}
