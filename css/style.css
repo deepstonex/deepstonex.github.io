@@ -223,7 +223,7 @@ button {
  background-size: 400% 400%;
  -webkit-animation: gradientBG 15s ease infinite;
  animation: gradientBG 15s ease infinite;
- height: auto;
+ min-height: 30vh;
  padding: 20px 0px;
 }
 
@@ -862,19 +862,19 @@ menu_text {
 .update_taital {
  width: 100%;
  font-size: 40px;
- color: #242424;
+ color: #ffffff;
  text-align: center;
  font-weight: bold;
 }
 
 .update_mail {
- color: #969695;
+ color: #ffffff;
  width: 60%;
  height: 55px;
  font-size: 18px;
  padding: 10px 20px 0px 20px;
  background-color: transparent !important;
- border: 1px solid #5e90f4 !important;
+ border: 1px solid #000000 !important;
  margin: 0 auto;
  justify-content: center;
  align-items: center;
@@ -883,7 +883,8 @@ menu_text {
 }
 
 textarea#comment::placeholder {
- color: #969695;
+ color: #ffffff;
+ font-weight: 600;
 }
 
 .subscribe_bt {
@@ -1027,4 +1028,50 @@ textarea#comment::placeholder {
 
 .margin_top90 {
  margin-top: 90px;
+}
+
+::-webkit-scrollbar {
+ width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background: #060A29;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: #4fadec;
+}
+
+.productinfocards {
+    background-color: aqua;
+    border-radius: 5%;
+    margin: 2%;
+}
+.productinfocards img{
+    border-radius: 5% 5%;
+    height: 230px;
+    width: 100%;
+}
+.productinfocards:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.productinfocards>div {
+    padding: 5%;
+}
+
+.productinfocards-buttons a {
+    background-color: blue;
+    padding: 2%;
+    border-radius: 20%;
+    color: white;
+}
+
+.productinfocards-buttons a:hover {
+    color: blue;
+    background-color: white;
 }

@@ -1,0 +1,39 @@
+---
+title: Marbles
+layout: default
+---
+
+<div class="layout_padding" style="text-align: center;font-size: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 style="color: white !important;">
+                    <b>Marble</b>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="layout_padding" style="text-align: center;font-size: 20px;">
+    <div class="container">
+        <div class="row">
+            {% assign products = site.categories['marble'] %}
+            {% for post in products %}
+            <div class="col-lg-4">
+                <div class="productinfocards">
+                    <a href="{{ post.url | absolute_url }}">
+                        <img src="/assets/images/products/{{post.categories}}/{{post.img}}">
+                        <div>
+                            <h2>
+                                {{post.title}}
+                            </h2>
+                    </a>
+                    <div class="productinfocards-buttons"><a href="{{ post.url | absolute_url }}">More</a></div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</div>
