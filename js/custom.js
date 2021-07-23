@@ -399,7 +399,7 @@ $('.counter').each(function () {
 
 $(function () {
 	$(".typed").typed({
-		strings: ["Developers.", "Designers.", "People."],
+		strings: ["Biggest Exporters.", "Marble Suppliers.", "People."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
