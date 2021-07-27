@@ -219,10 +219,7 @@ button {
 .header_section {
  width: 100%;
  float: left;
- background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
- background-size: 400% 400%;
- -webkit-animation: gradientBG 15s ease infinite;
- animation: gradientBG 15s ease infinite;
+ background-color: #000000;
  min-height: 30vh;
  padding: 20px 0px;
 }
@@ -1036,7 +1033,7 @@ textarea#comment::placeholder {
 
 /* Track */
 ::-webkit-scrollbar-track {
- background: #060A29;
+ background: #060a29;
 }
 
 /* Handle */
@@ -1045,33 +1042,33 @@ textarea#comment::placeholder {
 }
 
 .productinfocards {
-    background-color: aqua;
-    border-radius: 5%;
-    margin: 2%;
+ background-color: aqua;
+ border-radius: 5%;
+ margin: 2%;
 }
-.productinfocards img{
-    border-radius: 5% 5%;
-    height: 230px;
-    width: 100%;
+.productinfocards img {
+ border-radius: 5% 5%;
+ height: 230px;
+ width: 100%;
 }
 .productinfocards:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ -webkit-transform: scale(1.05);
+ transform: scale(1.05);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.productinfocards>div {
-    padding: 5%;
+.productinfocards > div {
+ padding: 5%;
 }
 
 .productinfocards-buttons a {
-    background-color: blue;
-    padding: 2%;
-    border-radius: 20%;
-    color: white;
+ background-color: blue;
+ padding: 2%;
+ border-radius: 20%;
+ color: white;
 }
 
 .productinfocards-buttons a:hover {
-    color: blue;
-    background-color: white;
+ color: blue;
+ background-color: white;
 }
