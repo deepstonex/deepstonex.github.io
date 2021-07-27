@@ -3,3 +3,8 @@ layout: post
 categories: granite
 img: 26. Himalayan Brown.jpg
 ---
+<b>Slab Sizes</b>: Cutter Slabs, Mini Gangsaw Slabs, Gangsaw Slabs<br>
+                    <b>Cut Size</b>: 30cm X 30cm, 30cm X 60cm, 60cm X 60cm, 60cm X 120cm, 120cm X 120cm & Customized
+                    Sizes also available<br>
+                    <b>Finishes</b>: Polished, Lapatro, Leather, Shot Blast, Flamed, Antique, Brushed & Honed<br>
+                    <b>Thickness</b>: 17mm, 20mm, 30mm, 40mm, 60mm & As per Requirement<br><br>

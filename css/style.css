@@ -915,7 +915,7 @@ textarea#comment::placeholder {
 .footer_section {
  width: 100%;
  float: left;
- background-color: #250d52;
+ background-color: #000000;
  height: auto;
  padding: 60px 0px 100px 0px;
 }
@@ -1044,7 +1044,7 @@ textarea#comment::placeholder {
 .productinfocards {
  background-color: aqua;
  border-radius: 5%;
- margin: 2%;
+ margin: 7%;
 }
 .productinfocards img {
  border-radius: 5% 5%;
@@ -1054,7 +1054,8 @@ textarea#comment::placeholder {
 .productinfocards:hover {
  -webkit-transform: scale(1.05);
  transform: scale(1.05);
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #0ba9ca, 0 0 15px #0ba9ca,
+  0 0 5px #ffffff, 0 0 10px #ffffff;
 }
 
 .productinfocards > div {
