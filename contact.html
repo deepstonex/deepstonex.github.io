@@ -4,16 +4,38 @@ layout: default
 ---
 
 <!-- update section start -->
-<div class="update_section">
+<div class="update_section" style="background-color: white;color: black;">
     <div class="container">
-        <h1 class="update_taital">Contact Us</h1>
-        <form action="/action_page.php">
+        <style>
+            .submit-buttons {
+                color: white;
+                background-color: black;
+                padding: 10px 40px 10px 40px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+            }
+
+            @media only screen and (min-width:600px) {
+                .submit-buttons {
+                    margin-left: 43%;
+                    margin-right: 43%;
+                }
+            }
+
+            .form-group {
+                color: black;
+            }
+        </style>
+        <h1 class="update_taital" style="color: black;">Contact Us</h1>
+        <form action="https://formspree.io/f/xeqvzqap" method="POST">
             <div class="form-group">
                 <textarea class="update_mail" placeholder="Name" rows="5" id="comment" name="Name"></textarea>
                 <textarea class="update_mail" placeholder="Number" rows="5" id="comment" name="Number"></textarea>
                 <textarea class="update_mail" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
+                <button class="submit-buttons" type="submit">Send Now</button>
             </div>
-            <div class="subscribe_bt"><a href="#">Subscribe Now</a></div>
         </form>
     </div>
 </div>
