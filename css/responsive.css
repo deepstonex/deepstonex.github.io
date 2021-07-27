@@ -563,7 +563,6 @@
 
     .about_section .row {
         display: flex;
-        flex-direction: column-reverse;
     }
 
     .about_taital {
