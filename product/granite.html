@@ -18,7 +18,7 @@ layout: default
 <div class="layout_padding" style="text-align: center;font-size: 20px;">
     <div class="container">
         <div class="row">
-            {% assign products = site.categories['granite'] %}
+            {% assign products = site.categories['granite'] | reverse | %}
             {% for post in products %}
             <div class="col-lg-4">
                 <div class="productinfocards">
